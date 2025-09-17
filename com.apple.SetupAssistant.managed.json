@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "com.apple.SetupAssistant.managed",
+  "description": "custom scheme for com.apple.SetupAssistant.managed to specify which panes of the SetupAssistant should be skipped during user login.",
+  "type": "object",
+  "properties": {
+    "SkipSetupItems": {
+      "description": "Selected items will be skipped by SetupAssistant at login. Hold down ⌘ key to select multiple items from the list.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Intelligence",
+          "Siri",
+          "ScreenTime",
+          "AppleID",
+          "Biometric",
+          "Appearance",
+          "Privacy",
+          "Payment",
+          "iCloudStorage",
+          "Wallpaper",
+          "Welcome",
+          "FileVault"
+        ]
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "SkipSetupItems"
+  ]
+}
