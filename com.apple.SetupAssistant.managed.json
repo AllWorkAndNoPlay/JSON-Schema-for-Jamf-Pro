@@ -21,7 +21,8 @@
           "iCloudStorage",
           "Wallpaper",
           "Welcome",
-          "FileVault"
+          "FileVault",
+          "DidSeeIntelligence"
         ]
       },
       "uniqueItems": true
