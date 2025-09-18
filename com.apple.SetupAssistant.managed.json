@@ -22,7 +22,8 @@
           "Wallpaper",
           "Welcome",
           "FileVault",
-          "DidSeeIntelligence"
+          "DidSeeIntelligence",
+          "screenUnlockMode"
         ]
       },
       "uniqueItems": true
