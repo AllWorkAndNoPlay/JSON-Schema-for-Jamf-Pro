@@ -23,7 +23,9 @@
           "Welcome",
           "FileVault",
           "DidSeeIntelligence",
-          "screenUnlockMode"
+          "screenUnlockMode",
+          "SoftwareUpdate",
+          "OSShowcase"
         ]
       },
       "uniqueItems": true
